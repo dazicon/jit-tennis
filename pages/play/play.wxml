@@ -1,4 +1,5 @@
 <!--pages/play/play.wxml-->
 <view class="play">
   <view class="play-title">一起来打球</view>
+  <button class='index-click' bindtap='checkClick'>发出邀请</button>
 </view>
