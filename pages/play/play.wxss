@@ -1,0 +1,4 @@
+/* pages/play/play.wxss */
+.play {
+  text-align: center;
+}
