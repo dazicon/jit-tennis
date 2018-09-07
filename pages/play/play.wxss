@@ -2,3 +2,6 @@
 .play {
   text-align: center;
 }
+.play-click {
+  width: 30%;
+}

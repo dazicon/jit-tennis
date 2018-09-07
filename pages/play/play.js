@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imgUrls: [
+      '/images/nadal1.jpg',
+      '/images/nadal2.jpg',
+      '/images/nadal3.jpg'
+    ],
+    indicatorDots: false,
+    autoplay: true,
+    interval: 5000,
+    duration: 1000
   },
 
   /**
