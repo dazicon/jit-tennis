@@ -1,14 +1,23 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <view class="news">
+    <swiper class='swiper-news' indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" height="auto"/>
+      </swiper-item>
     </block>
+  </swiper>
+  </view>
+  <view class='news-title'>
+    <view class='news-title-icon'>
+      <image src='/images/tennis1.png'></image>
+    </view>
+    <view class='news-title-name'>网坛资讯</view>
   </view>
   <view class="usermotto">
     <text class="user-motto"> Hello {{userInfo.nickName}} </text>
   </view>
-  <button class='index-click' bindtap='checkClick'>Click me!</button>
+  <button bindtap='bindToPlay' class='index-click'>去约球</button>
 </view>

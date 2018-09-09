@@ -1,4 +1,31 @@
 /**index.wxss**/
+.news {
+  width: 100%;
+}
+.news-title {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  vertical-align: middle;
+}
+.news-title .news-title-icon {
+  float: left;
+  margin-left: 10rpx;
+  width: 64rpx;
+  height: 64rpx;
+}
+.news-title image {
+  display: inline-block;
+  margin: 8rpx 0;
+  width: 64rpx;
+  height: 64rpx;
+}
+.news-title .news-title-name {
+  float: left;
+  margin-left: 16rpx;
+  
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,5 +44,12 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+.swiper-news {
+  width: 100%;
+  height: 360rpx;
+}
+.slide-image {
+  width: 100%;
 }

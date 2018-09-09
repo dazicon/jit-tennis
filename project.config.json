@@ -33,12 +33,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": 0,
 					"name": "play",
 					"pathName": "pages/play/play",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
 					"query": "",
 					"scene": "1001"
 				}

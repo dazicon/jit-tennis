@@ -10,7 +10,7 @@ Page({
       '/images/nadal2.jpg',
       '/images/nadal3.jpg'
     ],
-    indicatorDots: false,
+    indicatorDots: true,
     autoplay: true,
     interval: 5000,
     duration: 1000

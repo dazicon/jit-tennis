@@ -5,3 +5,10 @@
 .play-click {
   width: 30%;
 }
+.swiper-news {
+  width: 100%;
+  height: 360rpx;
+}
+.slide-image {
+  width: 100%;
+}
