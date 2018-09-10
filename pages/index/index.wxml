@@ -6,7 +6,7 @@
       <image src='/images/search.png'></image>
       <input type='text' placeholder='纳达尔' auto-focus><image src='/images/tennis1.png'></image></input>
     </view>
-    <image src='/images/voice.png'></image>
+    <image class='voice' src='/images/voice.png'></image>
   </view>
   <view class="news">
     <swiper class='swiper-news' indicator-dots="{{indicatorDots}}"

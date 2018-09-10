@@ -20,23 +20,26 @@
   background-color: #eee;
   border-radius: 40rpx;
 }
+.index-search .voice {
+  float: right;
+  margin-top: 18rpx;
+  margin-right: 3%;
+  width: 44rpx;
+  height: 44rpx;
+}
 .index-search .input-box input {
   float: left;
   width: 400rpx;
   height: 60rpx;
   font-size: 30rpx;
 }
-.index-search input-box image {
+.index-search .input-box image {
   display: block;
+  float: left;
+  margin-top: 12rpx;
+  margin-right: 3%;
   width: 36rpx;
   height: 36rpx;
-}
-.index-search image {
-  float: right;
-  margin-top: 18rpx;
-  margin-right: 3%;
-  width: 44rpx;
-  height: 44rpx;
 }
 .news {
   width: 100%;
