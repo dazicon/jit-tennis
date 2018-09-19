@@ -24,6 +24,27 @@
     </view>
     <view class='news-title-name'>网坛资讯</view>
   </view>
+  <!--资讯列表-->
+  <view class='index-news'>
+    <image src='/images/news1.jpg'></image>
+    <text>战报|首尔站：奥斯塔彭科战胜西班牙球员，开启卫冕之旅
+    <!--北京时间2018年9月19日，2018年首尔公开赛展开女子单打首轮的争夺。作为头号种子兼卫冕冠军奥斯塔彭科以6-3，6-3直落两盘的方式战胜西班牙球员阿鲁巴塞娜，晋级下一轮。-->
+    </text>
+    <text class='news-time'>3小时前</text>
+  </view>
+  <view  class='index-news'>
+    <image src='/images/news2.jpg'></image>
+    <text>资讯|纳达尔退出中网和上海劳力士大师赛
+    <!--世界第一纳达尔因为右膝伤选择在与阿根廷人德尔波特罗的美网半决赛中退赛。同时他还选择了退出戴维斯杯西班牙对阵法国的半决赛、ATP500赛中国网球公开赛和上海大师赛来有时间让自己从膝伤中恢复，并且可以有时间准备赛季末的比赛。拉法在美网半决赛对阵德尔波特罗的比赛初段就已经感觉自己膝盖不太舒服，感觉自己小髌骨肌腱撕裂，并且造成了世界第一在第二盘的退赛。纳达尔是在纽约的卫冕冠军，但是由于膝上他不能像去年一样在背靠背比赛中，连续击败卡恰洛夫、巴塞什维利和蒂姆几位强将。-->
+    </text>
+    <text class='news-time'>4小时前</text>
+  </view>
+  <view class='index-news'>
+    <image src='/images/news3.jpg'></image>
+    <text>图赏|费德勒德约领衔拉沃尔杯欧洲组抵达芝加哥备战
+    </text>
+    <text class='news-time'>5小时前</text>
+  </view>
   <view class="usermotto">
     <text class="user-motto"> Hello {{userInfo.nickName}} </text>
   </view>

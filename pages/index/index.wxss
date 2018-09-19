@@ -68,6 +68,31 @@
   margin-left: 16rpx;
   
 }
+
+.index-news {
+  margin: 10rpx auto;
+  width: 95%;
+  height: 180rpx;
+}
+.index-news image {
+  float: left;
+  margin-right: 20rpx;
+  width: 30%;
+  height: 180rpx;
+}
+.index-news text {
+  font-size: 34rpx;
+}
+.news-time {
+  display: block;
+  position: relative;
+  top: 20%;
+  font-size: 26rpx;
+  color: #aaa;
+}
+
+
+
 .userinfo {
   display: flex;
   flex-direction: column;
